@@ -1,0 +1,78 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.topofpage {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+}
+.greeting {
+width: 40%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+margin-left: 20px;
+}
+.time {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 147px;
+    border-radius: 25px;
+    padding: 22px 96px;
+    margin: 56px 0 23px;
+    font-size: 24px;
+    background-color: white;
+    gap:10px
+}
+.clock {
+    color: #02577A;
+    font-size: 36px;
+}
+.greeting > h1 {
+    font-size: 36px;
+}
+.mainpic {
+    width: 100%;
+}
+
+.work-img {
+    width: 100%;
+    height: 400px;
+}
+.johnquote {
+    margin-left: -100px;
+    padding: 50px 185px;
+    border: solid #02577A 2px;
+    border-radius: 25px;
+    margin-top:50px;
+}
+
+@media (max-width:600px) {
+    .greeting {
+        width: 100%;
+        font-size: 29px;
+        margin:0 0 13px 40px;
+    }
+    .time {
+        width: 90%;
+        padding-inline: 20px ;
+    }
+    .mainpic {
+        overflow: hidden;
+    }
+    .work-img {
+        width: auto;
+        height: 283px;
+    }
+    .johnquote {
+        width: 70%;
+        padding: 20px 75px;
+        margin-top:30px;
+    }
+}
